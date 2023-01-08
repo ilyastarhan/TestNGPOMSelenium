@@ -31,8 +31,15 @@ public class AmazonHomePageV1 {
     @FindBy(id = "nav_prefetch_yourorders")
     WebElement orders;
 
+    @FindBy(id = "sp-cc-accept")
+    WebElement cookies;
+
+
     public void searchFor(String key){
         txtSearch.sendKeys(key + Keys.ENTER);
+    }
+    public void cookiesAccept(){
+        cookies.click();
     }
 
     public void navigateToOrders(){

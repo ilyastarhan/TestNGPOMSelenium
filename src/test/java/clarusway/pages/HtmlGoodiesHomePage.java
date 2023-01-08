@@ -7,6 +7,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class HtmlGoodiesHomePage {
 
     public HtmlGoodiesHomePage(){
@@ -49,6 +51,12 @@ public class HtmlGoodiesHomePage {
 
     @FindBy(id = "box103")
     public WebElement usa;
+
+    @FindBy( xpath = "//div[contains(@id, 'box')][@class='dragableBox']")
+    public List <WebElement> capitals;
+
+    @FindBy(className = "dragableBoxRight")
+    public List<WebElement> countrys;
 
 
 
