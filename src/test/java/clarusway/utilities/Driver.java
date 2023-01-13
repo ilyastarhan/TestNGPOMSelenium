@@ -10,7 +10,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 
 public class Driver {
-
+//tek bir objemiz olsun diye private variable ve constructor yaptik
     private static WebDriver driver;
 
     private Driver() {
@@ -45,6 +45,8 @@ public class Driver {
         }
         return driver;
     }
+
+    //adbabdadnaknw awdwqqweqwe
 
     public static void closeDriver() {
         if (driver != null) {
