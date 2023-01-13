@@ -45,7 +45,7 @@ public class Driver {
         }
         return driver;
     }
-
+//danwjnandwa
     public static void closeDriver() {
         if (driver != null) {
             driver.quit();
