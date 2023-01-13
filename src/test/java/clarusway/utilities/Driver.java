@@ -45,9 +45,13 @@ public class Driver {
         }
         return driver;
     }
+<<<<<<< HEAD
 
     //adbabdadnaknw awdwqqweqwe
 
+=======
+//danwjnandwa
+>>>>>>> deneme2
     public static void closeDriver() {
         if (driver != null) {
             driver.quit();
