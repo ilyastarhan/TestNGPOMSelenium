@@ -51,7 +51,12 @@ public class Driver {
             driver.quit();
             driver = null;
         }
+<<<<<<< HEAD
 
 
+=======
+        //45115
+        //4165
+>>>>>>> deneme2
     }
 }
